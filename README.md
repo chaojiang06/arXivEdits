@@ -9,5 +9,5 @@ The code and data for our EMNLP 2022 paper [**arXivEdits: Understanding the Huma
   year={2022}
 }
 ```
-
-Thanks for your interest in our work! We are packaging the code and data, will release it soon!
+## Release Progress 
+Thanks for your interest in our work! We have release the 1,000 sentence pairs with edit intention. We are packaging the sentence alignment for 751 article groups and plan to release no late then 2022/11/20.
