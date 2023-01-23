@@ -1,8 +1,37 @@
+
+
 # arXivEdits 
 
 The data for our EMNLP 2022 paper [**arXivEdits: Understanding the Human Revision Process in Scientific Writing**](https://arxiv.org/abs/2210.15067) is provided at this repo. 
 
 The name of each field should be self-explainable. If you have any quiestions, please feel free to reach me at <chaojiang06@gmail.com>.
+
+The code for extract plain text from latex source code was wrote by awesome [Sam Stevens](https://samuelstevens.me/) when he was an undergraduate student. The raw code can be found [here](https://github.com/samuelstevens/arxiv-edits).
+
+## Update on 2023/01/23
+
+We add license information every version of all papers. For example:
+
+        train['1608.00087']['license'] = {'1': 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/', '2': 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/'}
+
+In total, we find the following licenses:
+
+        http://arxiv.org/licenses/assumed-1991-2003/
+        http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+        http://creativecommons.org/licenses/by-nc-sa/4.0/
+        http://creativecommons.org/licenses/by-sa/4.0/
+        http://creativecommons.org/licenses/by/3.0/
+        http://creativecommons.org/licenses/by/4.0/
+        http://creativecommons.org/licenses/publicdomain/
+        http://creativecommons.org/publicdomain/zero/1.0/
+
+We also add the source arxiv-id for each sentence pairs in the edits sub-dataset.
+
+Thanks for the suggestions from Qian Ruan at UKP Lab!
+
+### Reference
+
+If you find our paper or dataset useful, please considering cite the following paper.
 
 ```
 @article{jiang-etal-2022-arXivEdits,
@@ -12,4 +41,3 @@ The name of each field should be self-explainable. If you have any quiestions, p
   year={2022}
 }
 ```
-
