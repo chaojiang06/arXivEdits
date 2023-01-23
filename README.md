@@ -27,7 +27,7 @@ In total, we find the following licenses:
 
 We also add the source arxiv-id for each sentence pairs in the edits sub-dataset.
 
-Thanks for the suggestions from Qian Ruan at UKP Lab!
+Thanks for the suggestions from Qian Ruan from the UKP Lab!
 
 ### Reference
 
