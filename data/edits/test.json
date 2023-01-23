@@ -37,7 +37,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "1": {
     "easy-or-hard": "easy",
@@ -77,7 +80,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1805.01935",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "2": {
     "easy-or-hard": "easy",
@@ -96,7 +102,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1606.08477",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "3": {
     "easy-or-hard": "easy",
@@ -124,7 +133,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1610.01333",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "4": {
     "easy-or-hard": "easy",
@@ -159,7 +171,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1206.2567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "5": {
     "easy-or-hard": "easy",
@@ -181,7 +196,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0803.2581",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "6": {
     "easy-or-hard": "easy",
@@ -200,7 +218,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1902.05725",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "7": {
     "easy-or-hard": "easy",
@@ -222,7 +243,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0806.0232",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "8": {
     "easy-or-hard": "easy",
@@ -241,7 +265,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0712.0384",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "9": {
     "easy-or-hard": "easy",
@@ -260,7 +287,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1902.05725",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "10": {
     "easy-or-hard": "easy",
@@ -279,7 +309,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1506.08880",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "11": {
     "easy-or-hard": "easy",
@@ -301,7 +334,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "hep-ph-0206037",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "12": {
     "easy-or-hard": "easy",
@@ -329,7 +365,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1205.4567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "13": {
     "easy-or-hard": "easy",
@@ -369,7 +408,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1406.2192",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "14": {
     "easy-or-hard": "easy",
@@ -388,7 +430,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1705.00055",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "15": {
     "easy-or-hard": "easy",
@@ -417,7 +462,10 @@
         "sentence-2-token-indices": null
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0709.2336",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "16": {
     "easy-or-hard": "easy",
@@ -448,7 +496,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1405.1364",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "17": {
     "easy-or-hard": "easy",
@@ -467,7 +518,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0902.4528",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "18": {
     "easy-or-hard": "easy",
@@ -507,7 +561,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1412.5929",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "19": {
     "easy-or-hard": "easy",
@@ -526,7 +583,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0008495",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "20": {
     "easy-or-hard": "easy",
@@ -567,7 +627,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1709.00081",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "21": {
     "easy-or-hard": "easy",
@@ -595,7 +658,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1806.00480",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "22": {
     "easy-or-hard": "easy",
@@ -629,7 +695,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "23": {
     "easy-or-hard": "easy",
@@ -648,7 +717,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "24": {
     "easy-or-hard": "easy",
@@ -670,7 +742,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "25": {
     "easy-or-hard": "easy",
@@ -689,7 +764,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1601.05047",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "26": {
     "easy-or-hard": "easy",
@@ -717,7 +795,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1905.10709",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "27": {
     "easy-or-hard": "easy",
@@ -767,7 +848,10 @@
         "sentence-2-token-indices": null
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0004412",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "28": {
     "easy-or-hard": "easy",
@@ -798,7 +882,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1412.5929",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "29": {
     "easy-or-hard": "easy",
@@ -936,7 +1023,10 @@
           19
         ]
       }
-    }
+    },
+    "arxiv-id": "1007.1949",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "30": {
     "easy-or-hard": "easy",
@@ -958,7 +1048,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "31": {
     "easy-or-hard": "easy",
@@ -980,7 +1073,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0111161",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "32": {
     "easy-or-hard": "easy",
@@ -1002,7 +1098,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "33": {
     "easy-or-hard": "easy",
@@ -1021,7 +1120,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "34": {
     "easy-or-hard": "easy",
@@ -1061,7 +1163,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "35": {
     "easy-or-hard": "easy",
@@ -1080,7 +1185,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "36": {
     "easy-or-hard": "easy",
@@ -1108,7 +1216,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.04769",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "37": {
     "easy-or-hard": "easy",
@@ -1148,7 +1259,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0705.2267",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "38": {
     "easy-or-hard": "easy",
@@ -1179,7 +1293,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1705.00055",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "39": {
     "easy-or-hard": "easy",
@@ -1213,7 +1330,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0812.2456",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "40": {
     "easy-or-hard": "easy",
@@ -1232,7 +1352,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "41": {
     "easy-or-hard": "easy",
@@ -1254,7 +1377,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1602.08649",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "42": {
     "easy-or-hard": "easy",
@@ -1291,7 +1417,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1601.05047",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "43": {
     "easy-or-hard": "easy",
@@ -1325,7 +1454,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1205.4567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "44": {
     "easy-or-hard": "easy",
@@ -1347,7 +1479,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1707.02292",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "45": {
     "easy-or-hard": "easy",
@@ -1366,7 +1501,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "46": {
     "easy-or-hard": "easy",
@@ -1388,7 +1526,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1203.6053",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "47": {
     "easy-or-hard": "easy",
@@ -1407,7 +1548,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1805.01935",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "48": {
     "easy-or-hard": "easy",
@@ -1426,7 +1570,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1205.4567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "49": {
     "easy-or-hard": "easy",
@@ -1445,7 +1592,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1610.01333",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "50": {
     "easy-or-hard": "easy",
@@ -1464,7 +1614,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "51": {
     "easy-or-hard": "easy",
@@ -1504,7 +1657,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1204.5014",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "52": {
     "easy-or-hard": "easy",
@@ -1526,7 +1682,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1610.01333",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "53": {
     "easy-or-hard": "easy",
@@ -1545,7 +1704,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1205.4567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "54": {
     "easy-or-hard": "easy",
@@ -1580,7 +1742,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "55": {
     "easy-or-hard": "easy",
@@ -1599,7 +1764,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1602.08649",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "56": {
     "easy-or-hard": "easy",
@@ -1627,7 +1795,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "57": {
     "easy-or-hard": "easy",
@@ -1649,7 +1820,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0004412",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "58": {
     "easy-or-hard": "easy",
@@ -1671,7 +1845,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1610.01333",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "59": {
     "easy-or-hard": "easy",
@@ -1714,7 +1891,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "60": {
     "easy-or-hard": "easy",
@@ -1803,7 +1983,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1410.4028",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "61": {
     "easy-or-hard": "easy",
@@ -1822,7 +2005,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0801.2101",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "62": {
     "easy-or-hard": "easy",
@@ -1859,7 +2045,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.04769",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "63": {
     "easy-or-hard": "easy",
@@ -1912,7 +2101,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "64": {
     "easy-or-hard": "easy",
@@ -1964,7 +2156,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "65": {
     "easy-or-hard": "easy",
@@ -1986,7 +2181,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1611.09517",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "66": {
     "easy-or-hard": "easy",
@@ -2005,7 +2203,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "67": {
     "easy-or-hard": "hard",
@@ -2103,7 +2304,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "68": {
     "easy-or-hard": "easy",
@@ -2122,7 +2326,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0806.0232",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "69": {
     "easy-or-hard": "easy",
@@ -2144,7 +2351,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1603.06367",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "70": {
     "easy-or-hard": "easy",
@@ -2166,7 +2376,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "71": {
     "easy-or-hard": "easy",
@@ -2185,7 +2398,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0909.2978",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "72": {
     "easy-or-hard": "easy",
@@ -2216,7 +2432,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1802.09153",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "73": {
     "easy-or-hard": "easy",
@@ -2299,7 +2518,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "74": {
     "easy-or-hard": "easy",
@@ -2330,7 +2552,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1405.1364",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "75": {
     "easy-or-hard": "easy",
@@ -2349,7 +2574,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "quant-ph-0111052",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "76": {
     "easy-or-hard": "easy",
@@ -2371,7 +2599,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1810.02274",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "77": {
     "easy-or-hard": "easy",
@@ -2402,7 +2633,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "78": {
     "easy-or-hard": "easy",
@@ -2446,7 +2680,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "79": {
     "easy-or-hard": "easy",
@@ -2483,7 +2720,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1905.10709",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "80": {
     "easy-or-hard": "easy",
@@ -2502,7 +2742,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1303.3768",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "81": {
     "easy-or-hard": "easy",
@@ -2533,7 +2776,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1705.04527",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "82": {
     "easy-or-hard": "easy",
@@ -2573,7 +2819,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1410.4028",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "83": {
     "easy-or-hard": "easy",
@@ -2592,7 +2841,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1307.1155",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "84": {
     "easy-or-hard": "easy",
@@ -2611,7 +2863,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1206.2567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "85": {
     "easy-or-hard": "easy",
@@ -2642,7 +2897,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "86": {
     "easy-or-hard": "easy",
@@ -2664,7 +2922,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "87": {
     "easy-or-hard": "easy",
@@ -2701,7 +2962,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0812.2456",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "88": {
     "easy-or-hard": "easy",
@@ -2720,7 +2984,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "89": {
     "easy-or-hard": "easy",
@@ -2760,7 +3027,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0909.3835",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "90": {
     "easy-or-hard": "easy",
@@ -2795,7 +3065,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1511.08828",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "91": {
     "easy-or-hard": "easy",
@@ -2842,7 +3115,10 @@
         "sentence-2-token-indices": null
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "92": {
     "easy-or-hard": "easy",
@@ -2870,7 +3146,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "93": {
     "easy-or-hard": "easy",
@@ -2938,7 +3217,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1406.2192",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "94": {
     "easy-or-hard": "easy",
@@ -2960,7 +3242,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "95": {
     "easy-or-hard": "easy",
@@ -2979,7 +3264,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "quant-ph-0111052",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "96": {
     "easy-or-hard": "easy",
@@ -3019,7 +3307,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "97": {
     "easy-or-hard": "easy",
@@ -3047,7 +3338,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1602.08649",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "98": {
     "easy-or-hard": "easy",
@@ -3087,7 +3381,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1403.5022",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "99": {
     "easy-or-hard": "easy",
@@ -3140,7 +3437,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "100": {
     "easy-or-hard": "easy",
@@ -3159,7 +3459,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "101": {
     "easy-or-hard": "easy",
@@ -3187,7 +3490,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1410.4028",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "102": {
     "easy-or-hard": "easy",
@@ -3215,7 +3521,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0812.2456",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "103": {
     "easy-or-hard": "easy",
@@ -3234,7 +3543,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1410.4028",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "104": {
     "easy-or-hard": "easy",
@@ -3253,7 +3565,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1811.07450",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "105": {
     "easy-or-hard": "easy",
@@ -3293,7 +3608,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1711.06691",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "106": {
     "easy-or-hard": "easy",
@@ -3315,7 +3633,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1906.06209",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "107": {
     "easy-or-hard": "easy",
@@ -3334,7 +3655,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1705.01734",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "108": {
     "easy-or-hard": "easy",
@@ -3353,7 +3677,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1504.05162",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "109": {
     "easy-or-hard": "easy",
@@ -3400,7 +3727,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "110": {
     "easy-or-hard": "easy",
@@ -3422,7 +3752,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1905.10709",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "111": {
     "easy-or-hard": "easy",
@@ -3444,7 +3777,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1410.4028",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "112": {
     "easy-or-hard": "easy",
@@ -3491,7 +3827,10 @@
         "sentence-2-token-indices": null
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0309595",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "113": {
     "easy-or-hard": "easy",
@@ -3525,7 +3864,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "114": {
     "easy-or-hard": "easy",
@@ -3590,7 +3932,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1106.4335",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "115": {
     "easy-or-hard": "easy",
@@ -3612,7 +3957,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "116": {
     "easy-or-hard": "easy",
@@ -3656,7 +4004,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1110.3777",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "117": {
     "easy-or-hard": "easy",
@@ -3678,7 +4029,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "118": {
     "easy-or-hard": "easy",
@@ -3706,7 +4060,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0710.1402",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "119": {
     "easy-or-hard": "hard",
@@ -3798,7 +4155,10 @@
         "sentence-2-token-indices": null
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0801.2101",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "120": {
     "easy-or-hard": "easy",
@@ -3820,7 +4180,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "121": {
     "easy-or-hard": "easy",
@@ -3839,7 +4202,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1104.2303",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "122": {
     "easy-or-hard": "easy",
@@ -3882,7 +4248,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1802.09153",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "123": {
     "easy-or-hard": "easy",
@@ -3926,7 +4295,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "124": {
     "easy-or-hard": "easy",
@@ -3963,7 +4335,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "125": {
     "easy-or-hard": "easy",
@@ -3985,7 +4360,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "126": {
     "easy-or-hard": "easy",
@@ -4004,7 +4382,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0806.0232",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "127": {
     "easy-or-hard": "easy",
@@ -4035,7 +4416,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0812.2456",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "128": {
     "easy-or-hard": "easy",
@@ -4079,7 +4463,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1506.00739",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "129": {
     "easy-or-hard": "easy",
@@ -4153,7 +4540,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "130": {
     "easy-or-hard": "easy",
@@ -4172,7 +4562,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1805.01935",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "131": {
     "easy-or-hard": "easy",
@@ -4218,7 +4611,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1803.09067",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "132": {
     "easy-or-hard": "easy",
@@ -4246,7 +4642,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "133": {
     "easy-or-hard": "easy",
@@ -4289,7 +4688,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1206.2567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "134": {
     "easy-or-hard": "easy",
@@ -4335,7 +4737,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0909.3835",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "135": {
     "easy-or-hard": "easy",
@@ -4357,7 +4762,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "136": {
     "easy-or-hard": "easy",
@@ -4388,7 +4796,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "137": {
     "easy-or-hard": "easy",
@@ -4425,7 +4836,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1104.2303",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "138": {
     "easy-or-hard": "easy",
@@ -4468,7 +4882,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1205.4567",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "139": {
     "easy-or-hard": "easy",
@@ -4502,7 +4919,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "140": {
     "easy-or-hard": "easy",
@@ -4533,7 +4953,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1805.01935",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "141": {
     "easy-or-hard": "easy",
@@ -4555,7 +4978,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "142": {
     "easy-or-hard": "easy",
@@ -4574,7 +5000,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0004412",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "143": {
     "easy-or-hard": "easy",
@@ -4733,7 +5162,10 @@
           22
         ]
       }
-    }
+    },
+    "arxiv-id": "1907.05237",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "144": {
     "easy-or-hard": "easy",
@@ -4773,7 +5205,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1104.2303",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "145": {
     "easy-or-hard": "easy",
@@ -4850,7 +5285,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1405.1364",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "146": {
     "easy-or-hard": "easy",
@@ -4872,7 +5310,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1802.09153",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "147": {
     "easy-or-hard": "easy",
@@ -4891,7 +5332,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0801.2101",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "148": {
     "easy-or-hard": "easy",
@@ -4910,7 +5354,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1602.08649",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "149": {
     "easy-or-hard": "easy",
@@ -4932,7 +5379,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0309595",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "150": {
     "easy-or-hard": "easy",
@@ -4976,7 +5426,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1906.06209",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "151": {
     "easy-or-hard": "easy",
@@ -4998,7 +5451,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.04769",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "152": {
     "easy-or-hard": "easy",
@@ -5020,7 +5476,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1802.09153",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "153": {
     "easy-or-hard": "easy",
@@ -5039,7 +5498,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1204.5014",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "154": {
     "easy-or-hard": "easy",
@@ -5058,7 +5520,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.04769",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "155": {
     "easy-or-hard": "easy",
@@ -5110,7 +5575,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0309595",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "156": {
     "easy-or-hard": "easy",
@@ -5196,7 +5664,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1805.01935",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "157": {
     "easy-or-hard": "easy",
@@ -5215,7 +5686,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1601.05047",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "158": {
     "easy-or-hard": "easy",
@@ -5246,7 +5720,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0806.0232",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "159": {
     "easy-or-hard": "easy",
@@ -5268,7 +5745,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "160": {
     "easy-or-hard": "easy",
@@ -5290,7 +5770,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1709.00081",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "161": {
     "easy-or-hard": "easy",
@@ -5309,7 +5792,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "162": {
     "easy-or-hard": "easy",
@@ -5328,7 +5814,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1410.4028",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "163": {
     "easy-or-hard": "easy",
@@ -5350,7 +5839,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0008495",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "164": {
     "easy-or-hard": "easy",
@@ -5409,7 +5901,10 @@
         "sentence-2-token-indices": null
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.04769",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "165": {
     "easy-or-hard": "easy",
@@ -5431,7 +5926,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1504.05162",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "166": {
     "easy-or-hard": "easy",
@@ -5453,7 +5951,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0806.0232",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "167": {
     "easy-or-hard": "easy",
@@ -5482,7 +5983,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1007.1949",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "168": {
     "easy-or-hard": "easy",
@@ -5535,7 +6039,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0004412",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "169": {
     "easy-or-hard": "easy",
@@ -5557,7 +6064,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1506.00739",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "170": {
     "easy-or-hard": "easy",
@@ -5576,7 +6086,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0309595",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "171": {
     "easy-or-hard": "easy",
@@ -5610,7 +6123,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0806.0232",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "172": {
     "easy-or-hard": "easy",
@@ -5644,7 +6160,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "173": {
     "easy-or-hard": "easy",
@@ -5693,7 +6212,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1710.01496",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "174": {
     "easy-or-hard": "easy",
@@ -5712,7 +6234,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1905.09228",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "175": {
     "easy-or-hard": "easy",
@@ -5759,7 +6284,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "astro-ph-0008495",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "176": {
     "easy-or-hard": "easy",
@@ -5781,7 +6309,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1504.05162",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "177": {
     "easy-or-hard": "easy",
@@ -5800,7 +6331,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1107.0260",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "178": {
     "easy-or-hard": "hard",
@@ -5879,7 +6413,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.04769",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "179": {
     "easy-or-hard": "easy",
@@ -5934,7 +6471,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0705.2267",
+    "sentence-1-level": 3,
+    "sentence-2-level": 4
   },
   "180": {
     "easy-or-hard": "hard",
@@ -5992,7 +6532,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "181": {
     "easy-or-hard": "hard",
@@ -6065,7 +6608,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "0909.3835",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "182": {
     "easy-or-hard": "hard",
@@ -6159,7 +6705,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1512.05089",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "183": {
     "easy-or-hard": "easy",
@@ -6208,7 +6757,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1303.3768",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "184": {
     "easy-or-hard": "easy",
@@ -6263,7 +6815,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "185": {
     "easy-or-hard": "hard",
@@ -6327,7 +6882,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 4,
+    "sentence-2-level": 5
   },
   "186": {
     "easy-or-hard": "hard",
@@ -6430,7 +6988,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "187": {
     "easy-or-hard": "hard",
@@ -6488,7 +7049,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "cond-mat-0602186",
+    "sentence-1-level": 2,
+    "sentence-2-level": 3
   },
   "188": {
     "easy-or-hard": "easy",
@@ -6592,7 +7156,10 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "189": {
     "easy-or-hard": "easy",
@@ -6644,7 +7211,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1711.01972",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "190": {
     "easy-or-hard": "hard",
@@ -6711,7 +7281,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1405.4191",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "191": {
     "easy-or-hard": "easy",
@@ -6733,7 +7306,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "quant-ph-0406137",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "192": {
     "easy-or-hard": "easy",
@@ -6785,7 +7361,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1405.4191",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "193": {
     "easy-or-hard": "hard",
@@ -6873,7 +7452,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1301.2079",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "194": {
     "easy-or-hard": "hard",
@@ -6943,7 +7525,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1102.5645",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "195": {
     "easy-or-hard": "easy",
@@ -6989,7 +7574,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1405.4191",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "196": {
     "easy-or-hard": "hard",
@@ -7080,7 +7668,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "quant-ph-0406137",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "197": {
     "easy-or-hard": "easy",
@@ -7126,7 +7717,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1805.01935",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "198": {
     "easy-or-hard": "hard",
@@ -7223,7 +7817,10 @@
       }
     },
     "edits-combination-1": {},
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1406.2192",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   },
   "199": {
     "easy-or-hard": "hard",
@@ -7348,6 +7945,9 @@
         ]
       }
     },
-    "edits-combination-2": {}
+    "edits-combination-2": {},
+    "arxiv-id": "1905.09228",
+    "sentence-1-level": 1,
+    "sentence-2-level": 2
   }
 }
