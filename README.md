@@ -8,6 +8,9 @@ The name of each field should be self-explainable. If you have any quiestions, p
 
 The code for extract plain text from latex source code was wrote by awesome [Sam Stevens](https://samuelstevens.me/) when he was an undergraduate student. The raw code can be found [here](https://github.com/samuelstevens/arxiv-edits).
 
+## Update on 2023/02/22
+We upload all fine-tuned BERT checkpoints to huggingface hub, and provide [a sample code](https://colab.research.google.com/drive/1-6hWzTIgrEMrcervG_ANqrf1o2CugnfS?usp=sharing) to use them.
+
 ## Update on 2023/01/23
 
 We add license information every version of all papers. For example:
