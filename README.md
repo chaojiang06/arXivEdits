@@ -12,7 +12,7 @@ The code for extracting plain text from latex source code was written by awesome
 We upload all fine-tuned T5 intention classification models to the huggingface hub. The code is in the [code](https://github.com/chaojiang06/arXivEdits/tree/main/code/intention) folder
 
 ## Update on 2023/02/22
-We upload all fine-tuned BERT checkpoints to the huggingface hub and provide [a sample code](https://colab.research.google.com/drive/1-6hWzTIgrEMrcervG_ANqrf1o2CugnfS?usp=sharing) to use them.
+We upload all fine-tuned [BERT checkpoints](https://huggingface.co/chaojiang06/arxiv-sentence-alignment) to the huggingface hub and provide [a sample code](https://colab.research.google.com/drive/1-6hWzTIgrEMrcervG_ANqrf1o2CugnfS?usp=sharing) to use them.
 
 ## Update on 2023/01/23
 
