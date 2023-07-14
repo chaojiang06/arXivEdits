@@ -1,6 +1,6 @@
 Please use the following command to run the code
 ```sh
-python -u -m pdb run_translation_arxiv.py \
+python -u run_translation_arxiv.py \
   --model_name_or_path t5-base \
   --do_train \
   --do_eval \
