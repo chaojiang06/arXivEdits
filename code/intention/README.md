@@ -61,7 +61,7 @@ python -u run_translation_arxiv.py \
 
 Feel free to change `--model_name_or_path` and  `--coarse` to reproduce all performance in [Table 4](https://arxiv.org/pdf/2210.15067.pdf#page=8).
 
-When using this code for inference, please note that the key is the `preprocess_function` at line 490. Also, please consider using `['[MATH]', '[EQUATION]', '[REF]', '[CITATION]']` to replace the corresponding parts in the input.
+When using this code for inference, please note that the key is the `preprocess_function` at line 490. Also, please consider using `['[MATH]', '[EQUATION]', '[REF]', '[CITATION]']` as noted in line 419 to replace the corresponding parts in the input.
 
 ```python
 def preprocess_function(examples):
