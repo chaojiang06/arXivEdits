@@ -24,7 +24,12 @@ python -u -m pdb run_translation_arxiv.py \
 Please adjust the `--coarse True/False` to adjust training with 4 or more classes.
 
 All checkpoints are uploaded to the huggingface hub:
+
 [arXivEdits-intention-classifier-T5-base-fine-grained](https://huggingface.co/chaojiang06/arXivEdits-intention-classifier-T5-base-fine-grained)
+
 [arXivEdits-intention-classifier-T5-base-coarse](https://huggingface.co/chaojiang06/arXivEdits-intention-classifier-T5-base-coarse)
+
 [arXivEdits-intention-classifier-T5-large-fine-grained](https://huggingface.co/chaojiang06/arXivEdits-intention-classifier-T5-large-fine-grained)
+
 [arXivEdits-intention-classifier-T5-large-coarse](https://huggingface.co/chaojiang06/arXivEdits-intention-classifier-T5-large-coarse)
+
