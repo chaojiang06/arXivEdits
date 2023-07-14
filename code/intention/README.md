@@ -59,4 +59,4 @@ python -u run_translation_arxiv.py \
   --predict_with_generate
 ```
 
-Feel free to change `--model_name_or_path` to reproduce all performance in [Table 4](https://arxiv.org/pdf/2210.15067.pdf#page=8).
+Feel free to change `--model_name_or_path` and  `--coarse` to reproduce all performance in [Table 4](https://arxiv.org/pdf/2210.15067.pdf#page=8).
