@@ -38,9 +38,9 @@ Please use the following command to reproduce [Table 5 in the paper](https://arx
 
 ```sh
 python -u run_translation_arxiv.py \
-  --model_name_or_path arXivEdits-intention-classifier-T5-large-fine-grained \
-  --do_train \
+  --model_name_or_path chaojiang06/arXivEdits-intention-classifier-T5-large-fine-grained \
   --do_eval \
+  --do_predict \
   --save_strategy epoch \
   --evaluation_strategy epoch \
   --load_best_model_at_end \
@@ -55,7 +55,6 @@ python -u run_translation_arxiv.py \
   --metric_for_best_model accuracy \
   --overwrite_output_dir \
   --overwrite_cache \
-  --coarse True \
   --predict_with_generate
 ```
 
