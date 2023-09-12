@@ -876,7 +876,7 @@ if __name__ == "__main__":
 
             predicted_alignment_final.append(tmp)
         # print("bi-direction-union, predicted_alignment_final",
-              predicted_alignment_final)
+            #   predicted_alignment_final)
 
     elif args.direction == 'bi-direction-intersection':
         for i, j in zip(predicted_alignment_1, predicted_alignment_2):
@@ -886,7 +886,7 @@ if __name__ == "__main__":
                     tmp.append(ii)
             predicted_alignment_final.append(tmp)
         # print("bi-direction-intersection, predicted_alignment_final",
-              predicted_alignment_final)
+            #   predicted_alignment_final)
 
     output = {}
     sent_counter = 0
