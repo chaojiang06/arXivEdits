@@ -1,0 +1,29 @@
+{
+    "0": {
+        "simple": [
+            "An example of such a process is particle production ( for example , by parametric resonance [CITATION] ) , which can be expected to be effective because of the very rapid but small oscillations .",
+            "This clearly is an oversimplification , as the moment-zero map shows obvious evidence of non-exponential emission ( see Figure [REF] ) .",
+            "The algorithm is implemented in a multi-threaded fashion using C++11 and GNU Scientific Library .",
+            "The above three parts sum up to the total boundary-dependent energy shift of the atom .",
+            "These are : electroweak interactions , processes involving Higgs and two light particles , [MATH] meson and two [MATH] mesons , [MATH] , [MATH] and other heavy particles decaying into the pair of light particles ."
+        ],
+        "complex": [
+            "An example of such a process is particle production ( e.g. , by parametric resonance [CITATION] ) , which can be expected to be effective because of the very rapid but small oscillations .",
+            "This clearly is an oversimplification , as the moment 0 map shows obvious evidence of nonexponential emission ( see Figure [REF] ) .",
+            "The above three parts sum to the total boundary-dependent energy shift of the atom ."
+        ]
+    },
+    "1": {
+        "simple": [
+            "Considering the [MATH] confidence level threshold as significance level for the structure detection , we have overwhelming evidence for substructure inside the central region of the Coma cluster on the first three scales investigated : [MATH] , [MATH] and [MATH] Kpc ( see the Table 4A ) .",
+            "We also measure [MATH] for a subset of even closer neighbouring particles .",
+            "The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
+            "We then plug the ground distance into the equation of Definition [REF] and compute the Wasserstein distance using a network simplex method ."
+        ],
+        "complex": [
+            "Considering the [MATH] confidence level threshold as significance level for the structure detection , we have overwhelming evidence for substructure inside the central region of the Coma cluster on the first three scales investigated : [MATH] , [MATH] and [MATH] kpc ( see the Table 4A ) .",
+            "We also measure [MATH] for a subset of even closer neighbouring particles . The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
+            "Next , we substitute the ground distance into the equation of Definition [REF] and compute the Wasserstein distance using a network simplex method ."
+        ]
+    }
+}

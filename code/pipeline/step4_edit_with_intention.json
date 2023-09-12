@@ -1,0 +1,180 @@
+{
+    "0": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 0,
+        "sentence-1": "An example of such a process is particle production ( for example , by parametric resonance [CITATION] ) , which can be expected to be effective because of the very rapid but small oscillations .",
+        "sentence-2": "An example of such a process is particle production ( e.g. , by parametric resonance [CITATION] ) , which can be expected to be effective because of the very rapid but small oscillations .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Lang-other",
+                "sentence-1-token-indices": [
+                    10,
+                    12
+                ],
+                "sentence-2-token-indices": [
+                    10,
+                    11
+                ]
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 0,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "1": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 1,
+        "sentence-1": "This clearly is an oversimplification , as the moment-zero map shows obvious evidence of non-exponential emission ( see Figure [REF] ) .",
+        "sentence-2": "This clearly is an oversimplification , as the moment 0 map shows obvious evidence of nonexponential emission ( see Figure [REF] ) .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    8,
+                    9
+                ],
+                "sentence-2-token-indices": [
+                    8,
+                    10
+                ]
+            },
+            "1": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    14,
+                    15
+                ],
+                "sentence-2-token-indices": [
+                    15,
+                    16
+                ]
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 0,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "2": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 2,
+        "sentence-1": "The above three parts sum up to the total boundary-dependent energy shift of the atom .",
+        "sentence-2": "The above three parts sum to the total boundary-dependent energy shift of the atom .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Deletion",
+                "intention": "Lang-improve-readability-Simplify",
+                "sentence-1-token-indices": [
+                    5,
+                    6
+                ],
+                "sentence-2-token-indices": null
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 0,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "3": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 3,
+        "sentence-1": "Considering the [MATH] confidence level threshold as significance level for the structure detection , we have overwhelming evidence for substructure inside the central region of the Coma cluster on the first three scales investigated : [MATH] , [MATH] and [MATH] Kpc ( see the Table 4A ) .",
+        "sentence-2": "Considering the [MATH] confidence level threshold as significance level for the structure detection , we have overwhelming evidence for substructure inside the central region of the Coma cluster on the first three scales investigated : [MATH] , [MATH] and [MATH] kpc ( see the Table 4A ) .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    40,
+                    41
+                ],
+                "sentence-2-token-indices": [
+                    40,
+                    41
+                ]
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 1,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "4": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 4,
+        "sentence-1": "We also measure [MATH] for a subset of even closer neighbouring particles .",
+        "sentence-2": "We also measure [MATH] for a subset of even closer neighbouring particles . The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Insertion",
+                "intention": "Content",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    13,
+                    35
+                ]
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 1,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "5": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 5,
+        "sentence-1": "The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
+        "sentence-2": "We also measure [MATH] for a subset of even closer neighbouring particles . The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Insertion",
+                "intention": "Content",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    0,
+                    13
+                ]
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 1,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "6": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 6,
+        "sentence-1": "We then plug the ground distance into the equation of Definition [REF] and compute the Wasserstein distance using a network simplex method .",
+        "sentence-2": "Next , we substitute the ground distance into the equation of Definition [REF] and compute the Wasserstein distance using a network simplex method .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Lang-professional-Improve-style",
+                "sentence-1-token-indices": [
+                    0,
+                    3
+                ],
+                "sentence-2-token-indices": [
+                    0,
+                    4
+                ]
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 1,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    }
+}
