@@ -757,12 +757,10 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--input",
-        default="/nethome/cjiang95/share5/research_7_arxiv_alignment/20221114_1_github_repo/arXivEdits/code/pipeline/raw_input.json",
         help="the simple side of the corpus, where each line is a sentence",
     )
     parser.add_argument(
         "--output",
-        default="/nethome/cjiang95/share5/research_7_arxiv_alignment/20221114_1_github_repo/arXivEdits/code/pipeline/step1.json",
         help="the path to output the alignment pairs"
     )
     args = parser.parse_args()
@@ -812,7 +810,7 @@ if __name__ == "__main__":
     if args.corpus == 'arxiv':
         model.load_state_dict(
             torch.load(
-                "/coc/pskynet5/cjiang95/research_7_arxiv_alignment/20220606_1_remake_alignment_table/crf_output/model_task2_epoch_2_state_dict_0910.pkl"
+                "../../checkpoints/arxiv_crf_models/model_task2_epoch_2_state_dict_0910.pkl"
             )
         )
 
@@ -838,7 +836,7 @@ if __name__ == "__main__":
         )
         model.load_state_dict(
             torch.load(
-                "/coc/pskynet5/cjiang95/research_7_arxiv_alignment/20220606_1_remake_alignment_table/crf_output_reversed/model_task2_epoch_2_state_dict_0910.pkl"
+                "../../checkpoints/arxiv_crf_models/model_task2_epoch_2_state_dict_0910_reverse_direction.pkl"
             )
         )
 
