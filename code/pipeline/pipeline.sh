@@ -9,6 +9,10 @@ mkdir ../../checkpoints/
 git lfs install
 git clone https://huggingface.co/chaojiang06/arxiv-sentence-alignment ../../checkpoints/arxiv-sentence-alignment
 
+mkdir ../../checkpoints/arxiv_crf_models
+wget  -O ../../checkpoints/arxiv_crf_models/model_task2_epoch_2_state_dict_0910.pkl https://www.dropbox.com/s/vavnb20gc3qijpw/model_task2_epoch_2_state_dict_0910.pkl
+wget  -O  ../../checkpoints/arxiv_crf_models/model_task2_epoch_2_state_dict_0910_reverse_direction.pkl  https://www.dropbox.com/scl/fi/g517vo83ibbsywm9ww6py/model_task2_epoch_2_state_dict_0910_reverse_direction.pkl?rlkey=rz5f1irvw1xlwa4tkcbuliwqp
+
 # step 1, load the raw input file and perform sentence alignment.
 python ../aligner/CRF_aligner.py --input ${RAW_INPUT_FILE} --output ${STEP1}
 
