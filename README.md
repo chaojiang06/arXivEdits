@@ -8,6 +8,9 @@ The name of each field should be self-explainable. If you have any questions, pl
 
 The code for extracting plain text from latex source code was written by awesome [Sam Stevens](https://samuelstevens.me/) when he was an undergraduate student. The raw code can be found [here](https://github.com/samuelstevens/arxiv-edits).
 
+## Update on 2023/09/12
+We add a [pipeline code](https://github.com/chaojiang06/arXivEdits/tree/main/code/pipeline). Input paragraph pairs; it will do sentence alignment, edit extraction, and intention classification for you. Your one-stop solution for revision analysis. Check it out!
+
 ## Update on 2023/07/14
 We upload all fine-tuned T5 intention classification models to the huggingface hub. The code is in the [code](https://github.com/chaojiang06/arXivEdits/tree/main/code/intention) folder
 
