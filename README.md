@@ -4,12 +4,15 @@
 
 The data for our EMNLP 2022 paper [**arXivEdits: Understanding the Human Revision Process in Scientific Writing**](https://arxiv.org/abs/2210.15067) is provided at this repo. 
 
-The name of each field should be self-explainable. If you have any quiestions, please feel free to reach me at <chaojiang06@gmail.com>.
+The name of each field should be self-explainable. If you have any questions, please reach me at <chaojiang06@gmail.com>.
 
-The code for extract plain text from latex source code was wrote by awesome [Sam Stevens](https://samuelstevens.me/) when he was an undergraduate student. The raw code can be found [here](https://github.com/samuelstevens/arxiv-edits).
+The code for extracting plain text from latex source code was written by awesome [Sam Stevens](https://samuelstevens.me/) when he was an undergraduate student. The raw code can be found [here](https://github.com/samuelstevens/arxiv-edits).
+
+## Update on 2023/07/14
+We upload all fine-tuned T5 intention classification models to the huggingface hub. The code is in the [code](https://github.com/chaojiang06/arXivEdits/tree/main/code/intention) folder
 
 ## Update on 2023/02/22
-We upload all fine-tuned BERT checkpoints to huggingface hub, and provide [a sample code](https://colab.research.google.com/drive/1-6hWzTIgrEMrcervG_ANqrf1o2CugnfS?usp=sharing) to use them.
+We upload all fine-tuned [BERT checkpoints](https://huggingface.co/chaojiang06/arxiv-sentence-alignment) to the huggingface hub and provide [a sample code](https://colab.research.google.com/drive/1-6hWzTIgrEMrcervG_ANqrf1o2CugnfS?usp=sharing) to use them.
 
 ## Update on 2023/01/23
 
@@ -28,7 +31,7 @@ In total, we find the following licenses:
         http://creativecommons.org/licenses/publicdomain/
         http://creativecommons.org/publicdomain/zero/1.0/
 
-We also add the source arxiv-id for each sentence pairs in the edits sub-dataset.
+We also add the source arxiv-id for each sentence pair in the edits sub-dataset.
 
 Thanks for the suggestions from Qian Ruan from the UKP Lab!
 
