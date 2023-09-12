@@ -5,6 +5,7 @@ STEP2="step2_edit_extraction.json"
 STEP4="step4_edit_with_intention.json"
 
 # step 0, download all models.
+mkdir ../../checkpoints/
 git lfs install
 git clone https://huggingface.co/chaojiang06/arxiv-sentence-alignment ../../checkpoints/arxiv-sentence-alignment
 
