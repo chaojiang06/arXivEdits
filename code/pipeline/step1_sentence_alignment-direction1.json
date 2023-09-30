@@ -130,53 +130,5 @@
         "arxiv-id": 4,
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
-    },
-    "11": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 11,
-        "sentence-1": "However, to date, studies on protective immunity have only been performed in animal models and correlates of protection have not been established in humans .",
-        "sentence-2": "However, to date, studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
-        "edits-combination-0": {},
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 4,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "12": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 12,
-        "sentence-1": "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days (range 18.8 to 50.5 days) .",
-        "sentence-2": "Predeparture serological and viral reverse transcription-PCR (RT-PCR) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32 .",
-        "edits-combination-0": {},
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 4,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "13": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 13,
-        "sentence-1": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
-        "sentence-2": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
-        "edits-combination-0": {},
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 4,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "14": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 14,
-        "sentence-1": "Here, we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
-        "sentence-2": "Here, we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
-        "edits-combination-0": {},
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 4,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
     }
 }

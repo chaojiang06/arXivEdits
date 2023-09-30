@@ -2,35 +2,323 @@
     "0": {
         "easy-or-hard": "easy",
         "sentence-pair-index": 0,
-        "sentence-1": "An example of such a process is particle production ( for example , by parametric resonance [CITATION] ) , which can be expected to be effective because of the very rapid but small oscillations .",
-        "sentence-2": "An example of such a process is particle production ( e.g. , by parametric resonance [CITATION] ) , which can be expected to be effective because of the very rapid but small oscillations .",
+        "sentence-1": "Respondents reported beliefs about the risk of COVID-19 to personal and public health , adoption and support of NPIs , willingness to be vaccinated against COVID-19 , and reasons for vaccination willingness .",
+        "sentence-2": "We conducted a two-wave online survey conducted in February and November 2021 asking respondents their beliefs about COVID-19 risk perception , adoption and support of interventions , willingness to be vaccinated against COVID-19 , and reasons for vaccination .",
         "edits-combination-0": {
             "0": {
                 "type": "Substitute",
-                "intention": "Lang-other",
+                "intention": "Content",
                 "sentence-1-token-indices": [
-                    10,
-                    12
+                    0,
+                    13
                 ],
                 "sentence-2-token-indices": [
-                    10,
-                    11
-                ]
+                    0,
+                    20
+                ],
+                "sentence-1-tokens": "Respondents reported beliefs about the risk of COVID-19 to personal and public health",
+                "sentence-2-tokens": "We conducted a two-wave online survey conducted in February and November 2021 asking respondents their beliefs about COVID-19 risk perception"
+            },
+            "1": {
+                "type": "Substitute",
+                "intention": "Lang-accurate-spefific",
+                "sentence-1-token-indices": [
+                    18,
+                    19
+                ],
+                "sentence-2-token-indices": [
+                    25,
+                    26
+                ],
+                "sentence-1-tokens": "NPIs",
+                "sentence-2-tokens": "interventions"
+            },
+            "2": {
+                "type": "Deletion",
+                "intention": "Lang-accurate-spefific",
+                "sentence-1-token-indices": [
+                    31,
+                    32
+                ],
+                "sentence-2-token-indices": null,
+                "sentence-1-tokens": "willingness",
+                "sentence-2-tokens": null
             }
         },
         "edits-combination-1": {},
         "edits-combination-2": {},
-        "arxiv-id": 0,
+        "arxiv-id": 1,
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
     "1": {
         "easy-or-hard": "easy",
         "sentence-pair-index": 1,
-        "sentence-1": "This clearly is an oversimplification , as the moment-zero map shows obvious evidence of non-exponential emission ( see Figure [REF] ) .",
-        "sentence-2": "This clearly is an oversimplification , as the moment 0 map shows obvious evidence of nonexponential emission ( see Figure [REF] ) .",
+        "sentence-1": "We evaluated the association between disease status and COVID-19 behaviors or attitudes , adjusting for demographic and political factors .",
+        "sentence-2": "Regression analysis was conducted to assess the relationship of respondents reporting a chronic disease and COVID-19 behaviors and attitudes , compared to healthy respondents adjusting for demographic and political factors .",
         "edits-combination-0": {
             "0": {
+                "type": "Substitute",
+                "intention": "Lang-professional-Improve-style",
+                "sentence-1-token-indices": [
+                    0,
+                    2
+                ],
+                "sentence-2-token-indices": [
+                    0,
+                    4
+                ],
+                "sentence-1-tokens": "We evaluated",
+                "sentence-2-tokens": "Regression analysis was conducted"
+            },
+            "1": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    2,
+                    3
+                ],
+                "sentence-2-token-indices": [
+                    4,
+                    5
+                ],
+                "sentence-1-tokens": "the",
+                "sentence-2-tokens": "to"
+            },
+            "2": {
+                "type": "Substitute",
+                "intention": "Lang-professional-Improve-style",
+                "sentence-1-token-indices": [
+                    3,
+                    5
+                ],
+                "sentence-2-token-indices": [
+                    5,
+                    13
+                ],
+                "sentence-1-tokens": "association between",
+                "sentence-2-tokens": "assess the relationship of respondents reporting a chronic"
+            },
+            "3": {
+                "type": "Deletion",
+                "intention": "Lang-improve-readability-Simplify",
+                "sentence-1-token-indices": [
+                    6,
+                    7
+                ],
+                "sentence-2-token-indices": null,
+                "sentence-1-tokens": "status",
+                "sentence-2-tokens": null
+            },
+            "4": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    10,
+                    11
+                ],
+                "sentence-2-token-indices": [
+                    17,
+                    18
+                ],
+                "sentence-1-tokens": "or",
+                "sentence-2-tokens": "and"
+            },
+            "5": {
+                "type": "Insertion",
+                "intention": "Content",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    20,
+                    24
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": "compared to healthy respondents"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 1,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "2": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 2,
+        "sentence-1": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+        "sentence-2": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+        "edits-combination-0": {},
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "3": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 3,
+        "sentence-1": "However , to date , studies on protective immunity have only been performed in animal models and correlates of protection have not been established in humans .",
+        "sentence-2": "However , to date , studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Deletion",
+                "intention": "Lang-improve-readability-Simplify",
+                "sentence-1-token-indices": [
+                    10,
+                    11
+                ],
+                "sentence-2-token-indices": null,
+                "sentence-1-tokens": "only",
+                "sentence-2-tokens": null
+            },
+            "1": {
+                "type": "Insertion",
+                "intention": "Lang-accurate-spefific",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    12,
+                    13
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": "only"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "4": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 4,
+        "sentence-1": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+        "sentence-2": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+        "edits-combination-0": {},
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "5": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 5,
+        "sentence-1": "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days ( range 18.8 to 50.5 days ) .",
+        "sentence-2": "Predeparture serological and viral reverse transcription-PCR ( RT-PCR ) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days ( range , 18.8 to 50.5 days ) .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Insertion",
+                "intention": "Format",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    4,
+                    7
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": "reverse transcription-PCR ("
+            },
+            "1": {
+                "type": "Insertion",
+                "intention": "Format",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    8,
+                    9
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": ")"
+            },
+            "2": {
+                "type": "Insertion",
+                "intention": "Format",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    37,
+                    38
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": ","
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "6": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 6,
+        "sentence-1": "A total of 104 individuals had an RT-PCR positive viral test with Ct < 35 or seroconverted during the follow-up period , yielding an attack rate on board of 85.2 % ( 104/122 individuals ) .",
+        "sentence-2": "A total of 104 individuals had an RT-PCR-positive viral test with a cycle threshold ( CT ) of < 35 or seroconverted during the follow-up period , yielding an attack rate on board of 85.2 % ( 104/122 individuals ) .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    7,
+                    13
+                ],
+                "sentence-2-token-indices": [
+                    7,
+                    18
+                ],
+                "sentence-1-tokens": "RT-PCR positive viral test with Ct",
+                "sentence-2-tokens": "RT-PCR-positive viral test with a cycle threshold ( CT ) of"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "7": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 7,
+        "sentence-1": "Metagenomic sequencing of 39 viral genomes suggested the outbreak originated largely from a single viral clade .",
+        "sentence-2": "Metagenomic sequencing of 39 viral genomes suggested that the outbreak originated largely from a single viral clade .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Insertion",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    7,
+                    8
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": "that"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "8": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 8,
+        "sentence-1": "Only three crewmembers tested seropositive prior to the boats departure in initial serological screening and also had neutralizing and spike-reactive antibodies in follow-up assays .",
+        "sentence-2": "Only three crew members tested seropositive prior to the boat s departure in initial serological screening and also had neutralizing and spike-reactive antibodies in follow-up assays .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    2,
+                    3
+                ],
+                "sentence-2-token-indices": [
+                    2,
+                    4
+                ],
+                "sentence-1-tokens": "crewmembers",
+                "sentence-2-tokens": "crew members"
+            },
+            "1": {
                 "type": "Substitute",
                 "intention": "Improve-grammar-Typo",
                 "sentence-1-token-indices": [
@@ -38,142 +326,220 @@
                     9
                 ],
                 "sentence-2-token-indices": [
-                    8,
-                    10
-                ]
+                    9,
+                    11
+                ],
+                "sentence-1-tokens": "boats",
+                "sentence-2-tokens": "boat s"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "9": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 9,
+        "sentence-1": "None of these crewmembers with neutralizing antibody titers showed evidence of bona fide viral infection or experienced any symptoms during the viral outbreak .",
+        "sentence-2": "None of the crew members with neutralizing antibody titers showed evidence of bona fide viral infection or experienced any symptoms during the viral outbreak .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    2,
+                    3
+                ],
+                "sentence-2-token-indices": [
+                    2,
+                    3
+                ],
+                "sentence-1-tokens": "these",
+                "sentence-2-tokens": "the"
             },
             "1": {
                 "type": "Substitute",
                 "intention": "Improve-grammar-Typo",
                 "sentence-1-token-indices": [
-                    14,
-                    15
+                    3,
+                    4
                 ],
                 "sentence-2-token-indices": [
-                    15,
-                    16
-                ]
-            }
-        },
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 0,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "2": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 2,
-        "sentence-1": "The above three parts sum up to the total boundary-dependent energy shift of the atom .",
-        "sentence-2": "The above three parts sum to the total boundary-dependent energy shift of the atom .",
-        "edits-combination-0": {
-            "0": {
-                "type": "Deletion",
-                "intention": "Lang-improve-readability-Simplify",
-                "sentence-1-token-indices": [
-                    5,
-                    6
+                    3,
+                    5
                 ],
-                "sentence-2-token-indices": null
+                "sentence-1-tokens": "crewmembers",
+                "sentence-2-tokens": "crew members"
             }
         },
         "edits-combination-1": {},
         "edits-combination-2": {},
-        "arxiv-id": 0,
+        "arxiv-id": 4,
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "3": {
+    "10": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 3,
-        "sentence-1": "Considering the [MATH] confidence level threshold as significance level for the structure detection , we have overwhelming evidence for substructure inside the central region of the Coma cluster on the first three scales investigated : [MATH] , [MATH] and [MATH] Kpc ( see the Table 4A ) .",
-        "sentence-2": "Considering the [MATH] confidence level threshold as significance level for the structure detection , we have overwhelming evidence for substructure inside the central region of the Coma cluster on the first three scales investigated : [MATH] , [MATH] and [MATH] kpc ( see the Table 4A ) .",
+        "sentence-pair-index": 10,
+        "sentence-1": "Therefore , the presence of neutralizing antibodies from prior infection was significantly associated with protection against re-infection ( Fishers exact test , p=0.002 ) .",
+        "sentence-2": "Therefore , the presence of neutralizing antibodies from prior infection was significantly associated with protection against reinfection ( Fisher s exact test , P = 0.002 ) .",
         "edits-combination-0": {
             "0": {
                 "type": "Substitute",
                 "intention": "Improve-grammar-Typo",
                 "sentence-1-token-indices": [
-                    40,
-                    41
+                    16,
+                    17
                 ],
                 "sentence-2-token-indices": [
-                    40,
-                    41
-                ]
-            }
-        },
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 1,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "4": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 4,
-        "sentence-1": "We also measure [MATH] for a subset of even closer neighbouring particles .",
-        "sentence-2": "We also measure [MATH] for a subset of even closer neighbouring particles . The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
-        "edits-combination-0": {
-            "0": {
-                "type": "Insertion",
-                "intention": "Content",
-                "sentence-1-token-indices": null,
-                "sentence-2-token-indices": [
-                    13,
-                    35
-                ]
-            }
-        },
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 1,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "5": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 5,
-        "sentence-1": "The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
-        "sentence-2": "We also measure [MATH] for a subset of even closer neighbouring particles . The ratio of time resolutions obtained in scans at [MATH] cm and [MATH] cm for PMT2 is shown in Fig. [REF] .",
-        "edits-combination-0": {
-            "0": {
-                "type": "Insertion",
-                "intention": "Content",
-                "sentence-1-token-indices": null,
-                "sentence-2-token-indices": [
-                    0,
-                    13
-                ]
-            }
-        },
-        "edits-combination-1": {},
-        "edits-combination-2": {},
-        "arxiv-id": 1,
-        "sentence-1-level": "simple",
-        "sentence-2-level": "complex"
-    },
-    "6": {
-        "easy-or-hard": "easy",
-        "sentence-pair-index": 6,
-        "sentence-1": "We then plug the ground distance into the equation of Definition [REF] and compute the Wasserstein distance using a network simplex method .",
-        "sentence-2": "Next , we substitute the ground distance into the equation of Definition [REF] and compute the Wasserstein distance using a network simplex method .",
-        "edits-combination-0": {
-            "0": {
+                    16,
+                    17
+                ],
+                "sentence-1-tokens": "re-infection",
+                "sentence-2-tokens": "reinfection"
+            },
+            "1": {
                 "type": "Substitute",
-                "intention": "Lang-professional-Improve-style",
+                "intention": "Improve-grammar-Typo",
                 "sentence-1-token-indices": [
-                    0,
-                    3
+                    18,
+                    19
                 ],
                 "sentence-2-token-indices": [
-                    0,
-                    4
-                ]
+                    18,
+                    20
+                ],
+                "sentence-1-tokens": "Fishers",
+                "sentence-2-tokens": "Fisher s"
+            },
+            "2": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    22,
+                    23
+                ],
+                "sentence-2-token-indices": [
+                    23,
+                    26
+                ],
+                "sentence-1-tokens": "p=0.002",
+                "sentence-2-tokens": "P = 0.002"
             }
         },
         "edits-combination-1": {},
         "edits-combination-2": {},
-        "arxiv-id": 1,
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "11": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 11,
+        "sentence-1": "However , to date , studies on protective immunity have only been performed in animal models and correlates of protection have not been established in humans .",
+        "sentence-2": "However , to date , studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Deletion",
+                "intention": "Lang-improve-readability-Simplify",
+                "sentence-1-token-indices": [
+                    10,
+                    11
+                ],
+                "sentence-2-token-indices": null,
+                "sentence-1-tokens": "only",
+                "sentence-2-tokens": null
+            },
+            "1": {
+                "type": "Insertion",
+                "intention": "Lang-accurate-spefific",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    12,
+                    13
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": "only"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "12": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 12,
+        "sentence-1": "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days ( range 18.8 to 50.5 days ) .",
+        "sentence-2": "Predeparture serological and viral reverse transcription-PCR ( RT-PCR ) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32 .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Insertion",
+                "intention": "Format",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    4,
+                    7
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": "reverse transcription-PCR ("
+            },
+            "1": {
+                "type": "Insertion",
+                "intention": "Format",
+                "sentence-1-token-indices": null,
+                "sentence-2-token-indices": [
+                    8,
+                    9
+                ],
+                "sentence-1-tokens": null,
+                "sentence-2-tokens": ")"
+            },
+            "2": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    29,
+                    38
+                ],
+                "sentence-2-token-indices": [
+                    33,
+                    34
+                ],
+                "sentence-1-tokens": "32.5 days ( range 18.8 to 50.5 days )",
+                "sentence-2-tokens": "32"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "13": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 13,
+        "sentence-1": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+        "sentence-2": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+        "edits-combination-0": {},
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "14": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 14,
+        "sentence-1": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+        "sentence-2": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+        "edits-combination-0": {},
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 4,
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     }
