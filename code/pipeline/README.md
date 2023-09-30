@@ -26,10 +26,12 @@ Please put the `checkpoint` folder next to the `code` and `data` folder. The fol
 
 
 ### Something you can adjust:
-In the sentence alignment step, we currently merge the prediction from `simple-to-complex` and `complex-to-simple` directions by union. This method will yield high recall (coverage). If you want high precision, please adjust the following line in <code>pipeline.sh</code>. Pay attention to `--direction bi-direction-intersection`
+In the sentence alignment step, we currently merge the prediction from `simple-to-complex` and `complex-to-simple` directions by union. This method will yield high recall (coverage). If you want high precision, please adjust the `--direction` to `bi-direction-intersection`.
+
+We also introduce an adjustable threshold for the sentence alignment code. The Threshold can be a positive or negative number. The lower the threshold is, the more alignment it will extract.
 
 ```sh
-python ../aligner/CRF_aligner.py --input ${RAW_INPUT_FILE} --output ${STEP1} --direction bi-direction-intersection
+python ../aligner/CRF_aligner.py --input ${RAW_INPUT_FILE} --output ${STEP1} --threshold_adjustment -3.5 --direction bi-direction-union
 ```
 
 ### Notes:
