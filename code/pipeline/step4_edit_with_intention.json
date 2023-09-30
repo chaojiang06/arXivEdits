@@ -2,6 +2,61 @@
     "0": {
         "easy-or-hard": "easy",
         "sentence-pair-index": 0,
+        "sentence-1": "Individuals with chronic disease may be at higher risk of dying from COVID-19 , yet no association has been established between chronic illness and COVID-19 risk perception , engagement with nonpharmaceutical interventions ( NPIs ) , or vaccine acceptance .",
+        "sentence-2": "We theorized that while individuals with respiratory disease or autoimmune disorders would perceive greater threat from COVID-19 and be more supportive of non-pharmaceutical interventions ( NPIs ) , those with autoimmune disorders would be less likely to support vaccination-based interventions .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    0,
+                    30
+                ],
+                "sentence-2-token-indices": [
+                    0,
+                    22
+                ],
+                "sentence-1-tokens": "Individuals with chronic disease may be at higher risk of dying from COVID-19 , yet no association has been established between chronic illness and COVID-19 risk perception , engagement with",
+                "sentence-2-tokens": "We theorized that while individuals with respiratory disease or autoimmune disorders would perceive greater threat from COVID-19 and be more supportive of"
+            },
+            "1": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    30,
+                    31
+                ],
+                "sentence-2-token-indices": [
+                    22,
+                    23
+                ],
+                "sentence-1-tokens": "nonpharmaceutical",
+                "sentence-2-tokens": "non-pharmaceutical"
+            },
+            "2": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    36,
+                    39
+                ],
+                "sentence-2-token-indices": [
+                    28,
+                    40
+                ],
+                "sentence-1-tokens": "or vaccine acceptance",
+                "sentence-2-tokens": "those with autoimmune disorders would be less likely to support vaccination-based interventions"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 0,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "1": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 1,
         "sentence-1": "Respondents reported beliefs about the risk of COVID-19 to personal and public health , adoption and support of NPIs , willingness to be vaccinated against COVID-19 , and reasons for vaccination willingness .",
         "sentence-2": "We conducted a two-wave online survey conducted in February and November 2021 asking respondents their beliefs about COVID-19 risk perception , adoption and support of interventions , willingness to be vaccinated against COVID-19 , and reasons for vaccination .",
         "edits-combination-0": {
@@ -51,9 +106,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "1": {
+    "2": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 1,
+        "sentence-pair-index": 2,
         "sentence-1": "We evaluated the association between disease status and COVID-19 behaviors or attitudes , adjusting for demographic and political factors .",
         "sentence-2": "Regression analysis was conducted to assess the relationship of respondents reporting a chronic disease and COVID-19 behaviors and attitudes , compared to healthy respondents adjusting for demographic and political factors .",
         "edits-combination-0": {
@@ -142,9 +197,119 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "2": {
+    "3": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 2,
+        "sentence-pair-index": 3,
+        "sentence-1": "Chronic respiratory disease was associated with willingness to be vaccinated ( 0.6 , CI = 0.05 - 0.09 ) .",
+        "sentence-2": "Vaccine acceptance produced more divergent results : those reporting chronic respiratory diseases were 6 % more willing to be vaccinated than healthy controls , while we found no significant difference between individuals with autoimmune diseases and healthy controls .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    0,
+                    1
+                ],
+                "sentence-2-token-indices": [
+                    0,
+                    10
+                ],
+                "sentence-1-tokens": "Chronic",
+                "sentence-2-tokens": "Vaccine acceptance produced more divergent results : those reporting chronic"
+            },
+            "1": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    2,
+                    3
+                ],
+                "sentence-2-token-indices": [
+                    11,
+                    12
+                ],
+                "sentence-1-tokens": "disease",
+                "sentence-2-tokens": "diseases"
+            },
+            "2": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    3,
+                    6
+                ],
+                "sentence-2-token-indices": [
+                    12,
+                    16
+                ],
+                "sentence-1-tokens": "was associated with",
+                "sentence-2-tokens": "were 6 % more"
+            },
+            "3": {
+                "type": "Substitute",
+                "intention": "Improve-grammar-Typo",
+                "sentence-1-token-indices": [
+                    6,
+                    7
+                ],
+                "sentence-2-token-indices": [
+                    16,
+                    17
+                ],
+                "sentence-1-tokens": "willingness",
+                "sentence-2-tokens": "willing"
+            },
+            "4": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    10,
+                    19
+                ],
+                "sentence-2-token-indices": [
+                    20,
+                    38
+                ],
+                "sentence-1-tokens": "( 0.6 , CI = 0.05 - 0.09 )",
+                "sentence-2-tokens": "than healthy controls , while we found no significant difference between individuals with autoimmune diseases and healthy controls"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 2,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "4": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 4,
+        "sentence-1": "Autoimmune disease was associated with fear of a bad vaccine reaction ( 1.22 , CI = 1.06 - 1.41 ) among those unwilling to be vaccinated .",
+        "sentence-2": "Respondents with chronic respiratory disease and those with autoimmune diseases were more likely to want to be vaccinated to protect themselves from COVID-19 , and those with an autoimmune disease were more likely to report fear of a bad vaccine reaction as the reason for vaccine hesitancy .",
+        "edits-combination-0": {
+            "0": {
+                "type": "Substitute",
+                "intention": "Content",
+                "sentence-1-token-indices": [
+                    0,
+                    26
+                ],
+                "sentence-2-token-indices": [
+                    0,
+                    47
+                ],
+                "sentence-1-tokens": "Autoimmune disease was associated with fear of a bad vaccine reaction ( 1.22 , CI = 1.06 - 1.41 ) among those unwilling to be vaccinated",
+                "sentence-2-tokens": "Respondents with chronic respiratory disease and those with autoimmune diseases were more likely to want to be vaccinated to protect themselves from COVID-19 , and those with an autoimmune disease were more likely to report fear of a bad vaccine reaction as the reason for vaccine hesitancy"
+            }
+        },
+        "edits-combination-1": {},
+        "edits-combination-2": {},
+        "arxiv-id": 2,
+        "sentence-1-level": "simple",
+        "sentence-2-level": "complex"
+    },
+    "5": {
+        "easy-or-hard": "easy",
+        "sentence-pair-index": 5,
         "sentence-1": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
         "sentence-2": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
         "edits-combination-0": {},
@@ -154,9 +319,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "3": {
+    "6": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 3,
+        "sentence-pair-index": 6,
         "sentence-1": "However , to date , studies on protective immunity have only been performed in animal models and correlates of protection have not been established in humans .",
         "sentence-2": "However , to date , studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
         "edits-combination-0": {
@@ -189,9 +354,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "4": {
+    "7": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 4,
+        "sentence-pair-index": 7,
         "sentence-1": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
         "sentence-2": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
         "edits-combination-0": {},
@@ -201,9 +366,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "5": {
+    "8": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 5,
+        "sentence-pair-index": 8,
         "sentence-1": "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days ( range 18.8 to 50.5 days ) .",
         "sentence-2": "Predeparture serological and viral reverse transcription-PCR ( RT-PCR ) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days ( range , 18.8 to 50.5 days ) .",
         "edits-combination-0": {
@@ -247,9 +412,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "6": {
+    "9": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 6,
+        "sentence-pair-index": 9,
         "sentence-1": "A total of 104 individuals had an RT-PCR positive viral test with Ct < 35 or seroconverted during the follow-up period , yielding an attack rate on board of 85.2 % ( 104/122 individuals ) .",
         "sentence-2": "A total of 104 individuals had an RT-PCR-positive viral test with a cycle threshold ( CT ) of < 35 or seroconverted during the follow-up period , yielding an attack rate on board of 85.2 % ( 104/122 individuals ) .",
         "edits-combination-0": {
@@ -274,9 +439,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "7": {
+    "10": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 7,
+        "sentence-pair-index": 10,
         "sentence-1": "Metagenomic sequencing of 39 viral genomes suggested the outbreak originated largely from a single viral clade .",
         "sentence-2": "Metagenomic sequencing of 39 viral genomes suggested that the outbreak originated largely from a single viral clade .",
         "edits-combination-0": {
@@ -298,9 +463,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "8": {
+    "11": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 8,
+        "sentence-pair-index": 11,
         "sentence-1": "Only three crewmembers tested seropositive prior to the boats departure in initial serological screening and also had neutralizing and spike-reactive antibodies in follow-up assays .",
         "sentence-2": "Only three crew members tested seropositive prior to the boat s departure in initial serological screening and also had neutralizing and spike-reactive antibodies in follow-up assays .",
         "edits-combination-0": {
@@ -339,9 +504,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "9": {
+    "12": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 9,
+        "sentence-pair-index": 12,
         "sentence-1": "None of these crewmembers with neutralizing antibody titers showed evidence of bona fide viral infection or experienced any symptoms during the viral outbreak .",
         "sentence-2": "None of the crew members with neutralizing antibody titers showed evidence of bona fide viral infection or experienced any symptoms during the viral outbreak .",
         "edits-combination-0": {
@@ -380,9 +545,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "10": {
+    "13": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 10,
+        "sentence-pair-index": 13,
         "sentence-1": "Therefore , the presence of neutralizing antibodies from prior infection was significantly associated with protection against re-infection ( Fishers exact test , p=0.002 ) .",
         "sentence-2": "Therefore , the presence of neutralizing antibodies from prior infection was significantly associated with protection against reinfection ( Fisher s exact test , P = 0.002 ) .",
         "edits-combination-0": {
@@ -435,9 +600,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "11": {
+    "14": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 11,
+        "sentence-pair-index": 14,
         "sentence-1": "However , to date , studies on protective immunity have only been performed in animal models and correlates of protection have not been established in humans .",
         "sentence-2": "However , to date , studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
         "edits-combination-0": {
@@ -470,9 +635,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "12": {
+    "15": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 12,
+        "sentence-pair-index": 15,
         "sentence-1": "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days ( range 18.8 to 50.5 days ) .",
         "sentence-2": "Predeparture serological and viral reverse transcription-PCR ( RT-PCR ) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32 .",
         "edits-combination-0": {
@@ -519,9 +684,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "13": {
+    "16": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 13,
+        "sentence-pair-index": 16,
         "sentence-1": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
         "sentence-2": "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
         "edits-combination-0": {},
@@ -531,9 +696,9 @@
         "sentence-1-level": "simple",
         "sentence-2-level": "complex"
     },
-    "14": {
+    "17": {
         "easy-or-hard": "easy",
-        "sentence-pair-index": 14,
+        "sentence-pair-index": 17,
         "sentence-1": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
         "sentence-2": "Here , we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
         "edits-combination-0": {},
