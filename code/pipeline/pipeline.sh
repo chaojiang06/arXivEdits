@@ -22,7 +22,7 @@ STEP4="step4_edit_with_intention.json"
 
 # step 1, load the raw input file and perform sentence alignment.
 echo "step 1: sentence alignment."
-python ../aligner/CRF_aligner.py --input ${RAW_INPUT_FILE} --output ${STEP1} --threshold_adjustment 0 --direction bi-direction-union
+python ../aligner/CRF_aligner.py --input ${RAW_INPUT_FILE} --output ${STEP1} --threshold_adjustment -3.5 --direction bi-direction-union
 echo "step 1: sentence alignment done."
 
 # step 2, extract edits from the aligned sentence pairs.
