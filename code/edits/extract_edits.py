@@ -3,6 +3,7 @@ import diff_match_patch as dmp_module
 import argparse
 import json
 import copy
+from nltk.tokenize import sent_tokenize, word_tokenize
 
 
 def read_json(path):
@@ -24,6 +25,8 @@ def char_offsets_from_diff_v1(diff):
     for operation, segment in diff:
         segment_length = len(segment)
         if operation == 0:  # No change
+            char_mappings.append(
+                ('keep', char_offset1, char_offset1 + segment_length, char_offset2, char_offset2 + segment_length))
             char_offset1 += segment_length
             char_offset2 += segment_length
         elif operation == -1:  # Deletion from sent1
@@ -98,7 +101,10 @@ def generate_human_readable_diff_v20(sent1, sent2, diff):
     idx = 0
 
     while idx < len(char_mappings):
-        operation, start_char, end_char = char_mappings[idx]
+        if len(char_mappings[idx]) == 5:
+            operation, _, _, _, _ = char_mappings[idx]
+        else:
+            operation, start_char, end_char = char_mappings[idx]
 
         if operation == 'deletion':
             token_start1, token_end1 = char_offset_to_token_offset(
@@ -156,7 +162,35 @@ def handle_inword_operation(diff, text1, text2):
             if operation == 'deletion' and ((idx + 1 < len(char_mappings) and char_mappings[idx + 1][0] == 'keep') or (idx == len(char_mappings) - 1)) and ((idx - 1 >= 0 and char_mappings[idx - 1][0] == 'keep') or (idx == 0)):
 
                 # check if a in-word operation
-                if " ".join(text1.split()[token_start: token_end]) != text1[start_char: end_char].strip().rstrip():
+
+                # check if delete a white space
+                if text1[start_char: end_char].strip().rstrip() == "":
+                    # handle in-word operation
+                    # print("in-word deletion")
+                    token_start -= 1
+                    token_end += 1
+                    # print(token_start, token_end)
+                    # print(start_char, end_char)
+                    # print(" ".join(text1.split()[token_start: token_end]))
+                    # print(text1[start_char: end_char])
+
+                    all_start = len(" ".join(text1.split()[:token_start])) + 1
+                    all_end = len(" ".join(text1.split()[:token_end]))
+                    # print(text1[all_start: start_char] + text1[end_char:all_end])
+                    if idx - 1 >= 0:
+                        processed_diff[-1] = (0, diff[idx - 1][1]
+                                              [: -len(text1[all_start: start_char])])
+                    processed_diff.append(
+                        list([-1, " ".join(text1.split()[token_start: token_end])]))
+                    processed_diff.append(
+                        list([1, text1[all_start: start_char] + text1[end_char:all_end]]))
+                    if idx + 1 < len(char_mappings):
+                        diff[idx + 1] = (0, diff[idx + 1][1]
+                                         [len(text1[end_char:all_end]):])
+
+                    FLAG = True
+
+                elif " ".join(text1.split()[token_start: token_end]) != text1[start_char: end_char].strip().rstrip():
                     # handle in-word operation
                     # print("in-word deletion")
                     token_start -= 1
@@ -201,16 +235,14 @@ def handle_inword_operation(diff, text1, text2):
 
                     prepend = ""
                     if (idx - 1 >= 0) and (char_mappings[idx - 1][0] == 'keep') and (text1[char_mappings[idx - 1][1][1] - 1] != " "):
-                        prepend = text1[char_mappings[idx - 1][1][0]
-                            : char_mappings[idx - 1][1][1]].split()[-1]
+                        prepend = text1[char_mappings[idx - 1][1][0]: char_mappings[idx - 1][1][1]].split()[-1]
                         # print("CCC", processed_diff[-1][1])
                         processed_diff[-1][1] = processed_diff[-1][1][:-
                                                                       len(prepend)]
 
                     append = ""
                     if (idx + 2 < len(char_mappings)) and (char_mappings[idx + 2][0] == 'keep') and (text1[char_mappings[idx + 2][1][0]] != " "):
-                        append = text1[char_mappings[idx + 2][1][0]
-                            : char_mappings[idx + 2][1][1]].split()[0]
+                        append = text1[char_mappings[idx + 2][1][0]: char_mappings[idx + 2][1][1]].split()[0]
                         diff[idx + 2] = (0, diff[idx + 2][1][len(append):])
 
                     processed_diff.append(
@@ -230,7 +262,40 @@ def handle_inword_operation(diff, text1, text2):
             if operation == 'insertion' and ((idx + 1 < len(char_mappings) and char_mappings[idx + 1][0] == 'keep') or (idx == len(char_mappings) - 1)) and ((idx - 1 >= 0 and char_mappings[idx - 1][0] == 'keep') or (idx == 0)):
 
                 # check if a in-word operation
-                if " ".join(text2.split()[token_start: token_end]) != text2[start_char: end_char].strip().rstrip():
+                # check inly insert a white space
+                if text2[start_char: end_char].strip().rstrip() == "":
+                    # handle in-word operation
+                    # print("in-word insertion")
+                    # print(start_char, end_char)
+                    token_start -= 1
+                    token_end += 1
+                    # print(token_start, token_end)
+                    # print(" ".join(text2.split()[token_start: token_end]))
+                    # print(text2[start_char: end_char].strip().rstrip())
+
+                    all_start = len(" ".join(text2.split()[:token_start])) + 1
+                    all_end = len(" ".join(text2.split()[:token_end]))
+                    # print(text2[all_start: start_char] + text2[end_char:all_end])
+
+                    if idx - 1 >= 0:
+                        # print(processed_diff[-1])
+                        # print(diff[idx - 1])
+                        # print(text2)
+                        processed_diff[-1] = (0, diff[idx - 1][1]
+                                              [: -len(text2[all_start: start_char])])
+
+                    processed_diff.append(
+                        list([-1, text2[all_start: start_char] + text2[end_char:all_end]]))
+                    processed_diff.append(
+                        list([1, " ".join(text2.split()[token_start: token_end])]))
+
+                    if idx + 1 < len(char_mappings):
+                        diff[idx + 1] = (0, diff[idx + 1][1]
+                                         [len(text2[end_char:all_end]):])
+
+                    FLAG = True
+
+                elif " ".join(text2.split()[token_start: token_end]) != text2[start_char: end_char].strip().rstrip():
                     # handle in-word operation
                     # print("in-word insertion")
                     # print(start_char, end_char)
@@ -267,6 +332,60 @@ def handle_inword_operation(diff, text1, text2):
     return processed_diff
 
 
+def check_legit(output, text1, text2):
+
+    Flag = True
+
+    for idx_i, i in enumerate(output):
+
+        if i[1][0] != None and i[1][1] != None:
+            if i[1][1] <= i[1][0]:
+                Flag = False
+
+            if i[1][1] > len(text1.split()):
+                Flag = False
+
+        if i[2][0] != None and i[2][1] != None:
+            if i[2][1] <= i[2][0]:
+                Flag = False
+
+            if i[2][1] > len(text2.split()):
+                Flag = False
+
+        if i[0] == "Substitute":
+            if text1.split()[i[1][0]: i[1][1]] == text2.split()[i[2][0]: i[2][1]]:
+                Flag = False
+
+    return Flag
+
+
+def remove_shared_begin_and_end_token(text1, text2):
+    tokens1 = text1.split()
+    tokens2 = text2.split()
+    skip_begining = 0
+    skip_end = 0
+
+    while len(tokens1) > 0 and len(tokens2) > 0 and tokens1[0] == tokens2[0]:
+        tokens1.pop(0)
+        tokens2.pop(0)
+        skip_begining += 1
+
+    while len(tokens1) > 0 and len(tokens2) > 0 and tokens1[-1] == tokens2[-1]:
+        tokens1.pop(-1)
+        tokens2.pop(-1)
+        skip_end += 1
+
+    return {
+        "type": "Substitute",
+        "intention": "Content",
+        "sentence-1-token-indices": (skip_begining, len(
+            text1.split()) - skip_end),
+        "sentence-2-token-indices": (skip_begining, len(text2.split()) - skip_end),
+        "sentence-1-tokens": " ".join(tokens1),
+        "sentence-2-tokens":  " ".join(tokens2)
+    }
+
+
 if __name__ == "__main__":
 
     # below is a minimal test case
@@ -292,6 +411,22 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     data = read_json(args.input)
+
+    # data = {
+    #     "0": {
+    #         "easy-or-hard": "easy",
+    #         "sentence-pair-index": 12,
+    #         "sentence-1": "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days (range 18.8 to 50.5 days) .",
+    #         "sentence-2": "Predeparture serological and viral reverse transcription-PCR (RT-PCR) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32 .",
+    #         "edits-combination-0": {},
+    #         "edits-combination-1": {},
+    #         "edits-combination-2": {},
+    #         "arxiv-id": 4,
+    #         "sentence-1-level": "simple",
+    #         "sentence-2-level": "complex"
+    #     },
+    # }
+
     for k, v in data.items():
         text1 = " ".join(v['sentence-1'].split())
         text2 = " ".join(v['sentence-2'].split())
@@ -308,6 +443,13 @@ if __name__ == "__main__":
             print("after: ", text2)
             print("-----")
 
+        # if possible, please use this tokenizer for consistency
+        text1 = " ".join(word_tokenize(text1))
+        text2 = " ".join(word_tokenize(text2))
+
+        v['sentence-1'] = text1
+        v['sentence-2'] = text2
+
         dmp = dmp_module.diff_match_patch()
         diff = dmp.diff_main(text1, text2)
         dmp.diff_cleanupSemantic(diff)
@@ -315,32 +457,45 @@ if __name__ == "__main__":
         processed_diff = handle_inword_operation(
             copy.deepcopy(diff), text1, text2)
         output = generate_human_readable_diff_v20(text1, text2, processed_diff)
-        # print(output)
+        legit = check_legit(output, text1, text2)
+        if legit:
+            tmp = {}
+            for idx_i, i in enumerate(output):
+                if i[0] == "Substitute":
+                    tmp[idx_i] = {
+                        "type": i[0],
+                        "intention": "Content",
+                        "sentence-1-token-indices": [i[1][0], i[1][1]],
+                        "sentence-2-token-indices": [i[2][0], i[2][1]],
+                        "sentence-1-tokens": " ".join(text1.split()[i[1][0]: i[1][1]]),
+                        "sentence-2-tokens": " ".join(text2.split()[i[2][0]: i[2][1]])
+                    }
+                elif i[0] == "Insertion":
+                    tmp[idx_i] = {
+                        "type": i[0],
+                        "intention": "Content",
+                        "sentence-1-token-indices": None,
+                        "sentence-2-token-indices": [i[2][0], i[2][1]],
+                        "sentence-1-tokens": None,
+                        "sentence-2-tokens": " ".join(text2.split()[i[2][0]: i[2][1]])
+                    }
+                elif i[0] == "Deletion":
+                    tmp[idx_i] = {
+                        "type": i[0],
+                        "intention": "Content",
+                        "sentence-1-token-indices": [i[1][0], i[1][1]],
+                        "sentence-2-token-indices": None,
+                        "sentence-1-tokens": " ".join(text1.split()[i[1][0]: i[1][1]]),
+                        "sentence-2-tokens": None
+                    }
 
-        tmp = {}
-        for idx_i, i in enumerate(output):
-            if i[0] == "Substitute":
-                tmp[idx_i] = {
-                    "type": i[0],
-                    "intention": "Content",
-                    "sentence-1-token-indices": [i[1][0], i[1][1]],
-                    "sentence-2-token-indices": [i[2][0], i[2][1]]
-                }
-            elif i[0] == "Insertion":
-                tmp[idx_i] = {
-                    "type": i[0],
-                    "intention": "Content",
-                    "sentence-1-token-indices": None,
-                    "sentence-2-token-indices": [i[2][0], i[2][1]]
-                }
-            elif i[0] == "Deletion":
-                tmp[idx_i] = {
-                    "type": i[0],
-                    "intention": "Content",
-                    "sentence-1-token-indices": [i[1][0], i[1][1]],
-                    "sentence-2-token-indices": None
-                }
-
-        data[k]["edits-combination-0"] = tmp
+            data[k]["edits-combination-0"] = tmp
+        else:
+            print(
+                "On sentence pair {}, fall back to large chunk edits.".format(k))
+            data[k]["edits-combination-0"] = {
+                "0": remove_shared_begin_and_end_token(text1, text2)
+            }
 
     write_json(data, args.output)
+    # print(data)

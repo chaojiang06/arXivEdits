@@ -4,7 +4,7 @@ import time
 import random
 import csv
 import json
-from os.path import expanduser
+from os.path import expanduser, splitext
 import argparse
 
 # Third-party imports
@@ -54,12 +54,12 @@ def read_txt(path):
     return data
 
 
-def use_model_to_inference_in_practice(test_lsents, test_rsents, model):
+def use_model_to_inference_in_practice(test_lsents, test_rsents, model, args=None):
     predicted_alignment = []
 
     for test_i in range(len(test_lsents)):
         output_type, output_score, predect_sequence = model(
-            test_lsents[test_i], test_rsents[test_i], None
+            test_lsents[test_i], test_rsents[test_i], None, args
         )
 
         # print(test_lsents[test_i])
@@ -648,12 +648,12 @@ class NeuralSentenceAligner(nn.Module):
         alpha = self.log_sum_exp(forward_var1)
         return alpha
 
-    def distortionDistance(self, state_i, state_j, sent_length):
+    def distortionDistance(self, state_i, state_j, sent_length, args=None):
         start_i, size_i = convert_stateID_to_spanID(state_i, sent_length)
         start_j, size_j = convert_stateID_to_spanID(state_j, sent_length)
         return np.absolute(start_j - (start_i + size_i - 1) - 1)
 
-    def forward(self, raw_input_A, raw_input_B, golden_sequence):
+    def forward(self, raw_input_A, raw_input_B, golden_sequence, args=None):
         """
         :param raw_input_A: (source, source_dep_tag, source_dep_tree)
         :param raw_input_B: (target, target_dep_tag, target_dep_tree)
@@ -694,14 +694,20 @@ class NeuralSentenceAligner(nn.Module):
         )
 
         focusCube = tensor_matrix.view(len_A, len_B, -1)
-
+        # print("A", focusCube.shape, focusCube)
         focusCube = F.pad(focusCube, (0, 0, 0, 1), "constant", 0)
-
+        # print("B", focusCube.shape, focusCube)
         focusCube = focusCube.to(my_device)
         # print(focusCube.shape)
         output_both = self.mlp1(focusCube).squeeze(
             2
         )  # extended_length_A * (extended_length_B + 1)
+        # print("C", self.mlp1(focusCube).shape, output_both.shape)
+        # print("D", output_both.shape, output_both)
+        if args != None and args.threshold_adjustment != 0.0:
+            for idx in range(len(output_both)):
+                output_both[idx][-1] += args.threshold_adjustment
+        # print("E", output_both.shape, output_both)
 
         # output_both = self.mlp1(focusCube).squeeze()  # extended_length_A * (extended_length_B + 1)
         pair_loss = 0
@@ -763,6 +769,13 @@ if __name__ == "__main__":
         "--output",
         help="the path to output the alignment pairs"
     )
+    parser.add_argument(
+        "--threshold_adjustment",
+        type=float,
+        default=0.0,
+        help="can be a positive or negative number, the smaller the number is, more predictions will be made"
+    )
+
     args = parser.parse_args()
 
     # what should I do here?
@@ -824,9 +837,36 @@ if __name__ == "__main__":
     # step 4, output
 
     predicted_alignment_1 = use_model_to_inference_in_practice(
-        lsents, rsents, model)
+        lsents, rsents, model, args)
 
     # print("predicted_alignment_1", predicted_alignment_1)
+
+    output = {}
+    sent_counter = 0
+    article_counter = 0
+    for k, v in data.items():
+        simple = v["simple"]
+        complex = v["complex"]
+        for idx_j, j in enumerate(predicted_alignment_1[article_counter]):
+            output[sent_counter] = {
+                "easy-or-hard": "easy",
+                "sentence-pair-index": sent_counter,
+                "sentence-1": simple[int(j[0].split("_")[-1])],
+                "sentence-2": complex[int(j[1].split("_")[-1])],
+                "edits-combination-0": {},
+                "edits-combination-1": {},
+                "edits-combination-2": {},
+                "arxiv-id": article_counter,
+                "sentence-1-level": "simple",
+                "sentence-2-level": "complex"
+            }
+
+            sent_counter += 1
+        article_counter += 1
+    # print("output", output)
+    name, ext = splitext(args.output)
+    new_filename = f"{name}-direction1{ext}"
+    write_json(new_filename, output)
 
     if args.direction in ["bi-direction-union", "bi-direction-intersection"]:
         model = NeuralSentenceAligner(
@@ -850,7 +890,7 @@ if __name__ == "__main__":
         # step 4, output
 
         predicted_alignment_2 = use_model_to_inference_in_practice(
-            rsents, lsents, model)
+            rsents, lsents, model, args)
 
         tmp = []
         for idx_i, i in enumerate(predicted_alignment_2):
@@ -863,6 +903,33 @@ if __name__ == "__main__":
         predicted_alignment_2 = tmp
 
         # print("predicted_alignment_2", predicted_alignment_2)
+
+        output = {}
+        sent_counter = 0
+        article_counter = 0
+        for k, v in data.items():
+            simple = v["simple"]
+            complex = v["complex"]
+            for idx_j, j in enumerate(predicted_alignment_2[article_counter]):
+                output[sent_counter] = {
+                    "easy-or-hard": "easy",
+                    "sentence-pair-index": sent_counter,
+                    "sentence-1": simple[int(j[0].split("_")[-1])],
+                    "sentence-2": complex[int(j[1].split("_")[-1])],
+                    "edits-combination-0": {},
+                    "edits-combination-1": {},
+                    "edits-combination-2": {},
+                    "arxiv-id": article_counter,
+                    "sentence-1-level": "simple",
+                    "sentence-2-level": "complex"
+                }
+
+                sent_counter += 1
+            article_counter += 1
+        # print("output", output)
+        name, ext = splitext(args.output)
+        new_filename = f"{name}-direction2{ext}"
+        write_json(new_filename, output)
 
     predicted_alignment_final = []
     if args.direction == "bi-direction-union":

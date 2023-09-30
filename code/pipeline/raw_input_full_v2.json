@@ -1,0 +1,74 @@
+{
+    "0": {
+        "simple": [
+            "Individuals with chronic disease may be at higher risk of dying from COVID-19 , yet no association has been established between chronic illness and COVID-19 risk perception , engagement with nonpharmaceutical interventions (NPIs) , or vaccine acceptance ."
+        ],
+        "complex": [
+            "COVID-19 disproportionately affects those with preexisting conditions , but little research has determined whether those with chronic diseases view the pandemic itself differently - and whether there are differences between chronic diseases .",
+            "We theorized that while individuals with respiratory disease or autoimmune disorders would perceive greater threat from COVID-19 and be more supportive of non-pharmaceutical interventions (NPIs) , those with autoimmune disorders would be less likely to support vaccination-based interventions ."
+        ]
+    },
+    "1": {
+        "simple": [
+            "We surveyed US residents who self-reported a chronic respiratory or autoimmune disease in February 2021 .",
+            "Respondents reported beliefs about the risk of COVID-19 to personal and public health , adoption and support of NPIs , willingness to be vaccinated against COVID-19 , and reasons for vaccination willingness .",
+            "We evaluated the association between disease status and COVID-19 behaviors or attitudes , adjusting for demographic and political factors ."
+        ],
+        "complex": [
+            "We conducted a two-wave online survey conducted in February and November 2021 asking respondents their beliefs about COVID-19 risk perception , adoption and support of interventions , willingness to be vaccinated against COVID-19 , and reasons for vaccination .",
+            "Regression analysis was conducted to assess the relationship of respondents reporting a chronic disease and COVID-19 behaviors and attitudes , compared to healthy respondents adjusting for demographic and political factors ."
+        ]
+    },
+    "2": {
+        "simple": [
+            "Compared to healthy controls , chronic disease was associated with increased belief that COVID-19 was a personal ( Respiratory = 0.12 , 95% confidence interval (CI) = 0.10 - 0.15 ; Autoimmune = 0.11 , CI = 0.08 - 0.14 ) and public threat ( Respiratory = 0.04 , CI = 0.02 - 0.06 ; Autoimmune = 0.03 , CI = 0.01 - 0.06 ) , and support for NPIs .",
+            "Chronic respiratory disease was associated with willingness to be vaccinated ( 0.6 , CI = 0.05 - 0.09 ) .",
+            "Personal protection was associated with vaccination ( Respiratory = 1.08 , CI = 1.03 – 1.13 ; Autoimmune = 1.06 , CI = 1.01 – 1.11) .",
+            "Autoimmune disease was associated with fear of a bad vaccine reaction ( 1.22 , CI = 1.06 - 1.41 ) among those unwilling to be vaccinated ."
+        ],
+        "complex": [
+            "In the initial survey, individuals reporting a chronic disease had both stronger feelings of risk from COVID-19 as well as preferences for NPIs than healthy controls .",
+            "The only NPI that was still practiced significantly more compared to healthy controls in the resample was limiting trips outside of the home .",
+            "Support for community-level NPIs was higher among individuals reporting a chronic disease than healthy controls and remained high among those with respiratory diseases in sample 2 .",
+            "Vaccine acceptance produced more divergent results: those reporting chronic respiratory diseases were 6% more willing to be vaccinated than healthy controls, while we found no significant difference between individuals with autoimmune diseases and healthy controls .",
+            "Respondents with chronic respiratory disease and those with autoimmune diseases were more likely to want to be vaccinated to protect themselves from COVID-19, and those with an autoimmune disease were more likely to report fear of a bad vaccine reaction as the reason for vaccine hesitancy .",
+            "In the resample, neither those with respiratory diseases nor autoimmune diseases reported being more willing to receive a booster vaccine than healthy controls ."
+        ]
+    },
+    "3": {
+        "simple": [
+            "In the US , chronic disease status is significantly related to risk perceptions of COVID , support of personal and community risk mitigation measures , and willingness to be vaccinated ."
+        ],
+        "complex": [
+            "It is not enough to recognize the importance of health in determining attitudes: nuanced differences between conditions must also be recognized ."
+        ]
+    },
+    "4": {
+        "simple": [
+            "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+            "However, to date, studies on protective immunity have only been performed in animal models and correlates of protection have not been established in humans .",
+            "Here, we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+            "Predeparture serological and viral RT-PCR testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days (range 18.8 to 50.5 days) .",
+            "A total of 104 individuals had an RT-PCR positive viral test with Ct <35 or seroconverted during the follow-up period, yielding an attack rate on board of 85.2% (104/122 individuals) .",
+            "Metagenomic sequencing of 39 viral genomes suggested the outbreak originated largely from a single viral clade .",
+            "Only three crewmembers tested seropositive prior to the boats departure in initial serological screening and also had neutralizing and spike-reactive antibodies in follow-up assays .",
+            "None of these crewmembers with neutralizing antibody titers showed evidence of bona fide viral infection or experienced any symptoms during the viral outbreak .",
+            "Therefore, the presence of neutralizing antibodies from prior infection was significantly associated with protection against re-infection (Fishers exact test, p=0.002) ."
+        ],
+        "complex": [
+            "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+            "However, to date, studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
+            "Here, we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+            "Predeparture serological and viral reverse transcription-PCR (RT-PCR) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32 .",
+            "The development of vaccines against SARS-CoV-2 would be greatly facilitated by the identification of immunological correlates of protection in humans .",
+            "However, to date, studies on protective immunity have been performed only in animal models and correlates of protection have not been established in humans .",
+            "Here, we describe an outbreak of SARS-CoV-2 on a fishing vessel associated with a high attack rate .",
+            "Predeparture serological and viral reverse transcription-PCR (RT-PCR) testing along with repeat testing after return to shore was available for 120 of the 122 persons on board over a median follow-up of 32.5 days (range, 18.8 to 50.5 days) .",
+            "A total of 104 individuals had an RT-PCR-positive viral test with a cycle threshold (CT) of <35 or seroconverted during the follow-up period, yielding an attack rate on board of 85.2% (104/122 individuals) .",
+            "Metagenomic sequencing of 39 viral genomes suggested that the outbreak originated largely from a single viral clade .",
+            "Only three crew members tested seropositive prior to the boat s departure in initial serological screening and also had neutralizing and spike-reactive antibodies in follow-up assays .",
+            "None of the crew members with neutralizing antibody titers showed evidence of bona fide viral infection or experienced any symptoms during the viral outbreak .",
+            "Therefore, the presence of neutralizing antibodies from prior infection was significantly associated with protection against reinfection (Fisher s exact test, P = 0.002) ."
+        ]
+    }
+}
